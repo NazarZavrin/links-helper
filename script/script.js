@@ -2,12 +2,18 @@
 
 let linksContainer = document.querySelector(".links-container");
 
-addLink("Архітектура комп'ютера (mooodle)", "http://moodle.krkm.dnu.edu.ua/course/view.php?id=59");
-addLink("Алгоритми і структури даних", "https://meet.google.com/fvg-fjwm-fxi");
+addLink("Бази даних", "https://meet.google.com/wvv-hpzu-ugu");
+
+addLink("Іноземна мова за ПС", "https://us04web.zoom.us/j/72268047838?pwd=SqGzv0fb4rRvJbAi09BjtlWJnwGVvC.1");
+addLink("ООП", "https://meet.google.com/vak-amkg-nyt");
 addLink("Фізичне виховання", "https://meet.google.com/bqr-qmnm-wpa");
 
-addLink("Українська мова за ПС", "https://meet.google.com/nqj-vymy-pru");
-addLink("Держава і ринок", "https://meet.google.com/vvr-yexu-qmh");
+addLink("Математичний аналіз", "https://meet.google.com/ivm-tpoe-get");
+addLink("ОПБЖ", "http://meet.google.com/ske-wzjz-aud");
+addLink("ОПД", "https://us05web.zoom.us/j/9978212434?pwd=UEtYeHVSUUNqNVhzeFJNcVdrQlkrZz09");
+
+addLink("ОПІ", "https://meet.google.com/oiu-hsru-nor");
+
 
 
 
