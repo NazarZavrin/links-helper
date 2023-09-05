@@ -2,18 +2,18 @@
 
 let linksContainer = document.querySelector(".links-container");
 
-addLink("Бази даних", "https://meet.google.com/wvv-hpzu-ugu");
 
-addLink("Іноземна мова за ПС", "https://us04web.zoom.us/j/72268047838?pwd=SqGzv0fb4rRvJbAi09BjtlWJnwGVvC.1");
-addLink("ООП", "https://meet.google.com/vak-amkg-nyt");
-addLink("Фізичне виховання", "https://meet.google.com/bqr-qmnm-wpa");
+addLink("Інструментальні засоби візуального програмування", "https://meet.google.com/vak-amkg-nyt");
+addLink("Дискретна математика", "https://meet.google.com/frv-pwno-nuy");
 
-addLink("Математичний аналіз", "https://meet.google.com/ivm-tpoe-get");
-addLink("ОПБЖ", "http://meet.google.com/ske-wzjz-aud");
-addLink("ОПД", "https://us05web.zoom.us/j/9978212434?pwd=UEtYeHVSUUNqNVhzeFJNcVdrQlkrZz09");
+addLink("Теорія ймовірностей та математична статистика", "https://meet.google.com/jzo-tbdn-iov");
+addLink("КПЗ", "https://meet.google.com/hug-seik-dbv");
+addLink("Диференційні рівняння (ПН)", "https://meet.google.com/odz-ctqw-fbs");
+addLink("Диференційні рівняння (ЧТ)", "https://meet.google.com/gfd-uruo-edq");
 
-addLink("ОПІ", "https://meet.google.com/oiu-hsru-nor");
-
+addLink("Чисельні методи", "https://meet.google.com/wvv-hpzu-ugu");
+addLink("Організація комп'ютерних мереж", "https://meet.google.com/csv-aqog-zsu");
+addLink("Фізичне виховання", "https://meet.google.com/mnq-cyvo-opb");
 
 
 
@@ -34,7 +34,7 @@ linksContainer.addEventListener("click", event => {
 function addLink(title, link) {
     let element = document.querySelector(".structure").cloneNode(true);
     element.classList.remove("structure");
-    element.classList.add("link-container");
+    element.classList.add("link-component");
     element.querySelector(".title").textContent = title;
     element.querySelector(".link-text").textContent = link;
     linksContainer.append(element);
